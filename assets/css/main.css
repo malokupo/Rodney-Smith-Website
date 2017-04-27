@@ -1,0 +1,30 @@
+* {
+  /* reset page padding & margin */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  /* make the nav bar appear about all the elements */
+  /*position: fixed; */
+  background: #3498db; /* Color of nav bar */
+  width: 100%;
+  height: 50px; /* Height of navbar */
+}
+
+ul {
+  float: right;
+  padding: 10px;
+}
+
+ul li {
+  display: inline;
+  padding: 10px; /* padding between links */
+}
+
+.nav-link { /* link text*/
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+  padding: 20px;
+}
